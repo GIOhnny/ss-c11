@@ -45,4 +45,5 @@ public class UserManagementConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests().anyRequest().authenticated();
 
     }
+
 }
